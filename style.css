@@ -16,12 +16,12 @@
     --text-color: #00ffff;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--text-color);
     background-color: var(--bg-color);
     background-image: url(images/bg-desktop.svg);
@@ -30,12 +30,14 @@ body {
     background-size: cover;
     background-position: center;
 }
-.container{
+
+.container {
     display: grid;
     grid-template-rows: auto 2fr .3fr .3fr .3fr auto;
     min-height: 100vh;
 
 }
+
 nav,
 footer {
     text-align: center;
@@ -46,25 +48,27 @@ footer {
     min-height: 8vh;
     background-color: var(--sec-color);
 }
+
 .inline-list-items {
     display: inline;
 }
-:any-link{
+
+:any-link {
     text-decoration: none;
     font-weight: 800;
     color: var(--primary-color);
 }
 
-.brand-link{
+.brand-link {
     color: var(--text-color);
     padding: 10px;
 }
 
-.nav-li{
+.nav-li {
     padding: 1rem 2rem;
 }
 
-.nav-li:hover{
+.nav-li:hover {
     text-shadow: 1px 1px 5px var(--text-color);
     color: var(--text-color);
 }
@@ -83,7 +87,8 @@ footer {
     width: 70%;
     height: 70%;
 }
-.about-sec{
+
+.about-sec {
     width: 40vw;
     margin: 0 2rem;
     text-align: center;
@@ -91,23 +96,27 @@ footer {
     flex-direction: column;
     word-spacing: 3px;
 }
-.about-sec h1{
+
+.about-sec h1 {
     margin: 2rem 0;
     color: var(--primary-color);
 }
-.about-sec h1 span{
+
+.about-sec h1 span {
     text-shadow: 1px 1px 30px var(--primary-color);
     color: var(--text-color);
 }
-.about-sec p{
+
+.about-sec p {
     color: var(--primary-color);
     font-weight: 600;
     font-size: large;
 }
 
-.about-sec p a{
+.about-sec p a {
     color: var(--text-color);
 }
+
 section {
     display: flex;
     align-items: center;
@@ -115,7 +124,7 @@ section {
     align-self: center;
 }
 
-.sec-con{
+.sec-con {
     /* height: 30vh; */
     display: flex;
     align-items: center;
@@ -129,106 +138,118 @@ section {
     text-align: center;
     width: 70vw;
 }
-.sec-con:hover{
+
+.sec-con:hover {
     border-radius: 10px 40px;
     box-shadow: 1px 1px 10px 5px var(--text-color);
 
 
 }
-.sec-text{
+
+.sec-text {
     margin: 2rem 0;
     font-weight: 650;
     color: var(--primary-color);
     width: 50vw;
 }
 
-.sec-heading{
+.sec-heading {
     text-shadow: 1px 1px 30px var(--primary-color);
     padding: 1rem;
 }
 
-.sec-heading i{
+.sec-heading i {
     margin-bottom: 15px;
     display: block;
 }
 
-.links{
+.links {
     margin-bottom: 25px;
     padding: .5rem 1rem;
     color: var(--text-color);
     border-radius: 0px 20px;
     border: 2px solid var(--primary-color);
 }
-.links:hover{
+
+.links:hover {
     color: var(--primary-color);
     border: 2px solid var(--text-color);
-    border-radius:20px 0px;
+    border-radius: 20px 0px;
 }
-.primary-link{
+
+.primary-link {
     box-shadow: 1px 1px 15px var(--primary-color);
     /* text-shadow: 1px 5px 10px var(--text-color); */
 }
 
-footer{
+footer {
     margin-top: 2rem;
     justify-content: center;
     flex-direction: column;
 }
-footer ul{
+
+footer ul {
     padding: 0;
     list-style: none;
     display: flex;
 
 }
 
-.social-li{
+.social-li {
     font-size: larger;
     padding: 10px 1rem;
 }
 
-.social-li a:hover{
+.social-li a:hover {
     color: var(--text-color);
 }
 
-footer p{
+footer p {
     margin-bottom: 10px;
 }
 
 @media screen and (max-width:900px) {
-    nav{
+    nav {
         flex-direction: column;
     }
 
-    nav ul{
+    nav ul {
         padding: 0%;
         margin-bottom: 10px;
     }
+
+    .about-sec p a {
+        color: var(--primary-color);
+    }
+
     .inline-list-items {
         display: block;
         padding: 10px;
-    } 
+    }
+
     .main-sec {
         flex-direction: column;
     }
 
     .main-sec img {
-        margin-top:2rem;
+        margin-top: 2rem;
         width: 100%;
     }
 
-    .about-sec{
+    .about-sec {
         width: 80vw;
     }
-    .about-sec p{
-        
+
+    .about-sec p {
+
         color: var(--text-color);
     }
 
-    .sec-con{
+    .sec-con {
         width: 80vw;
     }
 
-    .sec-text{
+    .sec-text {
         width: 70vw;
     }
 
