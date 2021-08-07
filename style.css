@@ -69,7 +69,7 @@ footer {
     padding: 1rem 2rem;
 }
 
-.nav-li:hover {
+.nav-li:hover ,.active-page{
     text-shadow: 1px 1px 5px var(--text-color);
     color: var(--text-color);
 }
@@ -264,9 +264,7 @@ footer p {
 
 }
 
-
-/* ! Projects page styling */
-
+/* !  Projects page styling */
 
 .project-main{
     margin: 3rem 0;
