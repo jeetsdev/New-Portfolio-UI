@@ -155,6 +155,7 @@ section {
 }
 
 .sec-heading {
+    text-transform: capitalize;
     text-shadow: 1px 1px 30px var(--primary-color);
     padding: 1rem;
 }
@@ -258,7 +259,7 @@ footer p {
         width: 70vw;
     }
 
-    .project-main img {
+    .project-main img ,.blog-main img{
         width: 60% !important;
     }
 
@@ -266,7 +267,7 @@ footer p {
 
 /* !  Projects page styling */
 
-.project-main{
+.project-main,.blog-main{
     margin: 3rem 0;
     flex-direction: column;
     display: flex;
@@ -274,11 +275,13 @@ footer p {
     align-items: center;
     max-height: 60vh;
 }
-.project-main img{
+.project-main img,.blog-main img{
     width: 50%;
     height: 90%;
 }
-.project-main h1{
+.project-main h1,.blog-main h1{
+    text-transform: capitalize;
+    padding: 1rem;
     margin: 1rem;
     text-align: center;
 }
@@ -300,5 +303,19 @@ footer p {
 }
 
 .sec-con small i{
+    color: var(--text-color);
     margin-right: 5px;
 }
+
+/*! Landing blog page style */
+
+/* .blog-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+} */
+/* .blog-main img{
+    width: 50%;
+    height: 90%;
+} */
