@@ -263,8 +263,11 @@ footer p {
         width: 70vw;
     }
 
-    .project-main img ,.blog-main img{
+    .project-main img {
         width: 60% !important;
+    }
+    .blog-main img {
+        width: 80% !important;
     }
 
 }
