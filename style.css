@@ -215,6 +215,10 @@ footer p {
 }
 
 @media screen and (max-width:900px) {
+    body{
+        background-image: url(/images/bg-mobile.svg);
+    }
+
     nav {
         flex-direction: column;
     }
