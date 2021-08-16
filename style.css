@@ -154,6 +154,10 @@ section {
     width: 50vw;
 }
 
+.sec-text span{
+    color: var(--text-color);
+}
+
 .sec-heading {
     text-transform: capitalize;
     text-shadow: 1px 1px 30px var(--primary-color);
@@ -313,16 +317,3 @@ footer p {
     color: var(--text-color);
     margin-right: 5px;
 }
-
-/*! Landing blog page style */
-
-/* .blog-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: ;
-} */
-/* .blog-main img{
-    width: 50%;
-    height: 90%;
-} */
